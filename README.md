@@ -34,7 +34,7 @@ Luego, agrega el siguiente paquete npm *@usedapp/core* a su proyecto:
 <details>
   <summary>Con NPM</summary>
   
-  ```sh
+  ```console
   npm install @usedapp/core
   ```
 </details>
@@ -42,7 +42,7 @@ Luego, agrega el siguiente paquete npm *@usedapp/core* a su proyecto:
 <details>
   <summary>Con Yarn</summary>
   
-  ```sh
+  ```console
   yarn add @usedapp/core
   ```
 </details>
