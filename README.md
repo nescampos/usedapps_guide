@@ -16,13 +16,16 @@ published: 2021-05-30
 1. [Introducción](#introduccion)
 2. [Instalación](#instalacion)
 3. [Configuración](#configuracion)
-4. [Conectarse a una red](#conectarse a una red)
+4. [Conectarse a una red](#conectarse)
+5. [Saldo de Ether](#ether)
+6. [Saldo de tokens](#tokens)
+7. [Solución de problemas](#problemas)
 
-## Introducción
+## Introducción <a name="introduccion"></a>
 
 El propósito de este tutorial es entender cómo puedes crear dApps utilizando **useDapp** en React.
 
-## Instalación
+## Instalación <a name="instalacion"></a>
 
 Para comenzar a trabajar con **useDapp**, debe tener un entorno React funcionando.
 
@@ -44,7 +47,7 @@ Luego, agrega el siguiente paquete npm *@usedapp/core* a su proyecto:
   ```
 </details>
 
-## Configuración
+## Configuración <a name="configuracion"></a>
 
 Lo primero que debes hacer es configurar DAppProvider con configuración opcional y envolver toda su aplicación en él. Puedes leer sobre la configuración [aquí](https://usedapp.readthedocs.io/en/latest/core.html#config).
 
@@ -60,7 +63,7 @@ Lo primero que debes hacer es configurar DAppProvider con configuración opciona
 </details>
 
 
-## Conectarse a una red
+## Conectarse a una red <a name="conectarse"></a>
 
 Ahora, debes activar el proveedor mediante **activeBrowserWallet**. Es mejor hacerlo cuando el usuario hace clic en el botón "Conectar".
 
@@ -86,7 +89,7 @@ Después de la activación (es decir, el usuario se conecta a una billetera como
 
 Si necesitas usar otro conector que no sea una billetera de navegador, usa el método de activación de **useEthers**. Consulte el documento [web3-react](https://github.com/NoahZinsmeister/web3-react/tree/v6/docs#overview) para ello.
 
-## Saldo de Ether
+## Saldo de Ether <a name="ether"></a>
 
 *useEtherBalance(address: string)*
 
@@ -112,7 +115,7 @@ Proporciona una forma de recuperar el saldo de la cuenta. Toma la dirección de 
   ```
 </details>
 
-## Saldo de tokens
+## Saldo de tokens <a name="tokens"></a>
 
 *useTokenBalance(address: string, tokenAddress: string)*
 
@@ -139,7 +142,7 @@ Proporciona una forma de obtener el saldo del token ERC20 especificado por *toke
   ```
 </details>
 
-## Solución de problemas
+## Solución de problemas <a name="problemas"></a>
 
 ### Falta de coincidencia de tipos al construir
 Si al crear una aplicación ves errores sobre la falta de coincidencia de tipos en **@ethersproject**.
