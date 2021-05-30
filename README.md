@@ -29,12 +29,26 @@ Luego, agrega el siguiente paquete npm *@usedapp/core* a su proyecto:
   ```
 </details>
 
-### Con NPM
 <details>
   <summary>Con Yarn</summary>
   
   ```sh
   yarn add @usedapp/core
+  ```
+</details>
+
+## Configuración
+
+Lo primero que debes hacer es configurar DAppProvider con configuración opcional y envolver toda su aplicación en él. Puedes leer sobre la configuración [aquí](https://usedapp.readthedocs.io/en/latest/core.html#config).
+
+
+<details>
+  <summary>Ver un ejemplo</summary>
+  
+  ```javascript
+  <DAppProvider>
+    <App /> {/* Wrap your app with the Provider */}
+  </DAppProvider>
   ```
 </details>
 
