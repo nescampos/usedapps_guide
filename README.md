@@ -47,7 +47,7 @@ Lo primero que debes hacer es configurar DAppProvider con configuración opciona
   
   ```javascript
   <DAppProvider>
-    <App /> {/* Wrap your app with the Provider */}
+    <App /> {/* Contener tu aplicación con el DAppProvider */}
   </DAppProvider>
   ```
 </details>
