@@ -182,7 +182,7 @@ Por ejemplo:
 <details>
   <summary>Ver el ejemplo</summary>
   
-  ```javascript
+  ```json
   "resolutions": {
       "@ethersproject/abi": "5.2.0",
       "@ethersproject/contracts": "5.2.0"
