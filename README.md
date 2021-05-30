@@ -64,6 +64,8 @@ Lo primero que debes hacer es configurar DAppProvider con configuración opciona
   ```
 </details>
 
+![Configuración](./Config_useDapp.gif "Configuración")
+
 
 ## Conectarse a una red <a name="conectarse"></a>
 
@@ -86,6 +88,8 @@ Ahora, debes activar el proveedor mediante **activeBrowserWallet**. Es mejor hac
   }
   ```
 </details>
+
+![Conexión](./connect_usedapp.gif "Conexión")
 
 Después de la activación (es decir, el usuario se conecta a una billetera como MetaMask), el componente mostrará la dirección del usuario.
 
