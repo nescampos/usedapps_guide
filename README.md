@@ -47,6 +47,8 @@ Luego, agrega el siguiente paquete npm *@usedapp/core* a su proyecto:
   ```
 </details>
 
+![Instalación NPM](./UseDapp.gif "Instalación con NPM")
+
 ## Configuración <a name="configuracion"></a>
 
 Lo primero que debes hacer es configurar DAppProvider con configuración opcional y envolver toda su aplicación en él. Puedes leer sobre la configuración [aquí](https://usedapp.readthedocs.io/en/latest/core.html#config).
